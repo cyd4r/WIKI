@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gits on My Documentation</title>
+    <link>https://wiki.cyd4r.com/git/</link>
+    <description>Recent content in Gits on My Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Nov 2021 21:10:12 +0100</lastBuildDate><atom:link href="https://wiki.cyd4r.com/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comandos</title>
+      <link>https://wiki.cyd4r.com/git/comandos/</link>
+      <pubDate>Mon, 01 Nov 2021 21:10:12 +0100</pubDate>
+      
+      <guid>https://wiki.cyd4r.com/git/comandos/</guid>
+      <description>¿ Qué es GIT? Git es un conocido sistema de control de versiones distribuido de código abierto.
+Fue creado para manejar desde pequeños proyectos, hasta grandes proyectos empresariales, pero con algo en común… siempre con la misma rapidez y eficacia.
+Comandos GIT imprescindibles git config
+Aplicar una configuración especifica al usuario, algoritmo, nombre, email, etc…
+ejemplo
+git config --global user.email nombre@domain.com
+git init
+Crear / generar un repositorio nuevo.
+git init</description>
+    </item>
+    
+  </channel>
+</rss>
