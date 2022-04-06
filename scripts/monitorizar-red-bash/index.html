@@ -13,7 +13,7 @@
 <script src=https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js></script>
 <script src=https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js></script>
-<script src=https://wiki.cyd4r.com/js/bundle.js></script><style>:root{}</style>
+<script src=https://wiki.cyd4r.com/js/bundle.js></script><style>:root{--custom-font-color:#00ff00;--custom-background-color:black}</style>
 <meta property="og:title" content="Monitorizar Red Bash">
 <meta property="og:description" content="#!/bin/bash LOG=/tmp/mylog.log SECONDS=3600 EMAIL=mi@email for i in $@ ;do echo &#34;$i-UP!&#34; > $LOG.$i done while true; do for i in $@; do ping -c 1 $i > /dev/null if [ $? -ne 0 ]; then STATUS=$(cat $LOG.$i) if [ $STATUS != &#34;$i-DOWN!&#34; ]; then echo &#34;`date`: ping failed, $ihost is down!&#34; | mail -s &#34;$ihost is down!&#34; $EMAIL fi else STATUS=$(cat $LOG.$i) if [ $STATUS != &#34;$i-UP!&#34; ]; then echo &#34;`date`: ping OK, $ihost is up!">
 <meta property="og:type" content="article">
